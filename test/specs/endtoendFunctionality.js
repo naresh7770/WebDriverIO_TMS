@@ -27,7 +27,7 @@ describe("end to end", async () => {
                 const addtocart = await mobiles[i].$(".btn-info").click()
             }
         }
-        (await $("*=Checkout")).click();
+        await $("*=Checkout").click();
 
 
         //await browser.pause(5000);
