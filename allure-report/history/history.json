@@ -1,0 +1,1 @@
+{"67d015931df0b4e7f099c4489986457c":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"a8103bdf504ea13a","status":"broken","statusDetails":"Can't call click on element with selector \"#okaBtn\" because element wasn't found","time":{"start":1693569838863,"stop":1693569851983,"duration":13120}}]}}
