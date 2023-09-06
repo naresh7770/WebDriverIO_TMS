@@ -1,5 +1,5 @@
-const fs = require("fs")
-let credentials = JSON.parse(fs.readFileSync('testdata/LoginTest.json'))
+//const fs = require("fs")
+//let credentials = JSON.parse(fs.readFileSync('testdata/LoginTest.json'))
 describe("end to end", async () => {
     it("functional testing", async () => {
 
@@ -30,7 +30,7 @@ describe("end to end", async () => {
         (await $("*=Checkout")).click();
 
 
-        await browser.pause(50000);
+        //await browser.pause(5000);
 
 
         // await browser.url("https://rahulshettyacademy.com/loginpagePractise/");
